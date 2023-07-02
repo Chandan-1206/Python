@@ -1,6 +1,6 @@
 # getters and setters
 class MyClass:
-  def _init_(self, value):
+  def __init__(self, value):
       self._value = value
     
   def show(self):
