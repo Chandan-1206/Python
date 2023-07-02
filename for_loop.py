@@ -10,5 +10,6 @@ for color in colors: # to print elements of a list or other similar iterable obj
         print(char)
 
 # range 
-for i in range('''start ='''0,'''stop ='''11,'''step ='''2): # similar to c/c++
+           # start stop  step
+for i in range(0,   11,    2): # similar to c/c++
     print(i)
