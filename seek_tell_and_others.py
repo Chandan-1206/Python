@@ -1,7 +1,7 @@
 # seek,tell and others
 
 # seek()
-f=open("zoro.txt",'r')
+f=open("zoro.txt",'r') # file with this name should be present 
 print(type(f)) # this is just to show that 'read' is in 'io' module 
 f.seek(10) # seek function moves the cursor by giver arguments 
 print(f.read(5)) # read() reads the file by number arguement 5 means next 5 characters
