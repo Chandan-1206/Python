@@ -54,3 +54,6 @@ def func():
     func()
     return 0
 menu()
+
+# to learn more about random module:- 
+# https://www.w3schools.com/python/module_random.asp
