@@ -3,14 +3,14 @@
 # docstrings:
 def square(n):
     """takes in a number n and returns its square"""
-    print(square._doc_)
+    print(square.__doc__)
     print(n**2)
 square(9)    
 
 def add(a,b):
     c=a+b
     '''adds two numbers'''
-    print(add._doc_) # this won't work bcz docstring is placed right after function declaration or
+    print(add.__doc__) # this won't work bcz docstring is placed right after function declaration or
                        # are considered as comments
     print(c)
 add(8,3)
