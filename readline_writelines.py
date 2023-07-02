@@ -1,7 +1,7 @@
 # readlines,writelines and others
 
 # readline
-a=open('proxy2.txt')
+a=open('proxy2.txt') # file with this name should be present with something written in it
 while True:
     line=a.readline()
     print(line)
@@ -11,7 +11,10 @@ while True:
 a.close()    
 # can be used as :-
 
-f=open("proxy.txt")    
+f=open("proxy.txt") # file with this name should be present and marks like below should be written
+# 34,56,98
+# 19,16,91
+# 33,76,78
 i = 0
 while True:
     i=i+1
