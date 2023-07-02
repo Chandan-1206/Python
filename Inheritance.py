@@ -1,6 +1,6 @@
 # Inheritance
 class employee:
-    def _init_(self,name,id):
+    def __init__(self,name,id):
         self.name=name
         self.id=id
     def show(self):
