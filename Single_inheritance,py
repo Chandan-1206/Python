@@ -1,0 +1,21 @@
+# Single inheritance
+class animals:
+    def __init__(self,name,species):
+        self.name=name
+        self.species=species
+    
+    def sound(self):
+        print(f"sound made by {self.species}")
+
+class cats(animals):
+    def __init__(self,name,breed):
+        animals.__init__(self,name,species='cat')
+        self.breed=breed
+    
+    def sound(self):
+        print(f"sound made by {self.name} the {self.species} is Meowww")
+
+a=animals("chetak","horse")
+a.sound()
+c=cats('bonbon','orangro')
+c.sound()
