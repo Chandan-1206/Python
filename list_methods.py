@@ -24,4 +24,12 @@ b.insert(2,68) #used to insert an element at a particular index like in stl c++
 print(b)
 d=[1,2,3,4,5,6,7]
 e=[80,90,100]
-d.extend(e…
+d.extend(e) #this extends list d and adds elements of e at the end
+print(d)
+#but this will change list d if you want to concatinate two lists you can use:
+d=[1,2,3,4,5,6,7]
+e=[80,90,100]
+f=d+e #for concatination of e in d
+g=e+d #for concatination of d on e
+print(f)
+print(g)
