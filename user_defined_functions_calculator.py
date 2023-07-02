@@ -9,7 +9,7 @@ def div(a,b):
     print (a/b)
     
 while True:
-    choice=int(input("select \n-> (1)add\n-> (2)subtract\n-> (3)multiply\n-> 4)divide\n-> Any other number to exit.\n"))
+    choice=int(input("select \n-> (1)add\n-> (2)subtract\n-> (3)multiply\n-> (4)divide\n-> Any other number to exit.\n"))
     if(choice<5):
         a=float(input("enter the first number: "))
         b=float(input("enter the second number: "))
